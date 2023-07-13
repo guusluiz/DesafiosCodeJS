@@ -1,9 +1,9 @@
 let prompt = require('prompt-sync')()
 
-nota1 = parseInt(prompt("Qual a primeira nota: "))
-nota2 = parseInt(prompt("Qual a segunda nota: "))
-nota3 = parseInt(prompt("Qual a terceira nota: "))
-nota4 = parseInt(prompt("Qual a quarta nota: "))
+let nota1 = parseInt(prompt("Qual a primeira nota: "))
+let nota2 = parseInt(prompt("Qual a segunda nota: "))
+let nota3 = parseInt(prompt("Qual a terceira nota: "))
+let nota4 = parseInt(prompt("Qual a quarta nota: "))
 
 let media = (nota1 + nota2 + nota3 + nota4)/4
 

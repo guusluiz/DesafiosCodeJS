@@ -5,7 +5,7 @@ let cargo = prompt("Digite o cargo: ")
 let salario = parseInt(prompt("Digite o salário: "))
 
 if(salario < 1000){
-    salario = salario + 0.1*salario
+    salario *= 1.1
 }
 console.log("o nome é: " + nome)
 console.log("o cargo é: " + cargo)

@@ -54,15 +54,15 @@ let prompt = require('prompt-sync')()
 
 
 
-V && V == V
-V && F == F
-F && V == F
-F && F == F
+// V && V == V
+// V && F == F
+// F && V == F
+// F && F == F
 
-V || V == V
-V || F == V
-F || V == V
-F || F == F
+// V || V == V
+// V || F == V
+// F || V == V
+// F || F == F
 
 let numero = parseInt(prompt("Digite um numero: "))
 
