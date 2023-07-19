@@ -84,7 +84,7 @@ do {
             resposta = prompt("quer continuar? ")
             break
         case "10":
-            let numero10
+            let numero10 = 1
 
             while (numero10 > 0) {
                 numero10 = prompt("Qual o número? ")
