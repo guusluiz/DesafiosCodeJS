@@ -1,8 +1,8 @@
 import PromptSync from "prompt-sync";
-
+const prompt = PromptSync();
 import verificarMaiorIdade from "../Aula-2While/Exercicio_idade_18"
 
-const prompt = PromptSync();
+
 
 //menu para escolher qual exercicio o usuário selecionar
 
