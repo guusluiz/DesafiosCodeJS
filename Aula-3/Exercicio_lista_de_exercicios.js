@@ -12,8 +12,11 @@ import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
 let resposta;
+let count;
+
 do {
     console.log("1. Imprimir números de 1 a 10.\n2. Imprimir números pares de 1 a 10.\n3. Imprimir os números ímpares de 0 a 50.\n4. Imprimir a tabuada que o usuário escolheu até 10.\n5. Imprimir os primeiros 10 números da sequência de Fibonacci.\n6. Imprimir números pares de 0 a 20.\n7. Calcular a soma dos números de 1 a 100.\n8. Permitir apenas usuários maiores de 18 anos.\n9. Contar regressivamente do número escolhido pelo usuário até 0.\n10. Permitir somente o número 0.")
+
     let exercicio = prompt("Digite um número de 1 a 10 de acordo com o exercício que você quer: ")
     switch (exercicio) {
         case "1":
@@ -50,4 +53,16 @@ do {
             break
     }
     resposta = prompt(`Quer continuar? "sim" para continuar e "nao" para não continuar? `).toLowerCase();
+
+    while (resposta != "sim" && resposta != "nao") {
+        console.log("resposta invválida");
+        resposta = prompt(`Quer continuar? "sim" para continuar e "nao" para não continuar? `).toLowerCase();
+    }
+
 } while (resposta == "sim");
+
+
+
+
+
+
